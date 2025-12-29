@@ -204,7 +204,7 @@ def Begin_The_Game(): #Done
     glLoadIdentity()
 
     Box_X, Box_Y = 520 , 380 #horizontal and vertical position 
-    Box_Width, Box_Height =320 , 65
+    Box_Width, Box_Height = 410 , 65
     glColor3f( 1, 1, 1) 
     glLineWidth(3.5)
     glBegin(GL_LINES)
@@ -884,4 +884,5 @@ def main():
     
 
 if __name__ == "__main__":
+
     main()
